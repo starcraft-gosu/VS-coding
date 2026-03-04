@@ -60,8 +60,6 @@ for y in range(m):
             two_room = max(two_room, area)
 
 
-for room in rooms:
-    print(room)
 print(len(rooms))
 print(max(map(len, rooms)))
 print(two_room)
